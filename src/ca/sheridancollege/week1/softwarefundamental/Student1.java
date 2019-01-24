@@ -12,6 +12,15 @@ package ca.sheridancollege.week1.softwarefundamental;
 public class Student1 {
 
     private String name;
+    private int studentID; //added to make a change in github
+    
+    public void setStudentID(int studentID){
+        this.studentID = studentID;
+    }
+    
+    public int getStudentID(){
+        return this.studentID;
+    }
 
     /**
      * @return the name
